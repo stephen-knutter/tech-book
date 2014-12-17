@@ -1,0 +1,91 @@
+/****
+HEADER
+****/
+
+#headerImg{
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+#headerImg img{
+	width: 300px;
+	height: 50px;
+}
+
+#cart{
+	float: right;
+	padding-top: 30px;
+}
+
+#cart p{
+	display: inline;
+	margin: 10px 10px 0 0;
+	padding-left: 12px;
+	background: url('../images/phone.png') 0 10% no-repeat;
+}
+
+#cart a{
+	text-decoration: none;
+	margin: 10px;
+	border: 1px solid #ed2279;
+	padding: 10px 10px 10px 20px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #ed2279;
+	background: url('../images/small-cart.png') 10% 50% no-repeat;
+	font-weight: bold;
+}
+
+
+#cart a:hover{
+	color: white;
+	background-color: #FF89C8;
+}
+
+
+#searchBar{
+	width: 100%;
+	background-color: #2DC8F9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	float: left;
+	clear: left;
+	border-bottom: 3px solid #0b95bf;
+}
+
+
+
+#searchBar .searchInput{
+	width: 30%;
+	padding: 7px;
+	border: none;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+#searchBar .searchButton{
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+@media only screen and (max-width : 600px){
+	div#searchBar .searchInput{
+		width: 70%;
+		padding: 2px;
+		border: none;
+		margin: 0;
+		font-size: 1.5em;
+	}
+
+	div#searchBar .searchButton{
+		padding: 5px 2px 3px 2px;
+		border: none;
+		cursor: pointer;
+	}
+}

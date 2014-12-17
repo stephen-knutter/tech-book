@@ -1,0 +1,29 @@
+div.suggestions{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: white;
+	border: 1px solid #2DC8F9;
+	position: absolute;
+	color: #2DC8F9;
+}
+
+div.suggestions a {
+	cursor: pointer;
+	padding: 5px 0px;
+	margin: 0;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: auto;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px dotted orange;
+	color: #056a89;
+	text-align: center;
+	overflow: hidden;
+}
+
+div.suggestions a.current{
+	background-color: #E4F5FC;
+	color: #3f4c6b;
+}
