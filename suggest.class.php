@@ -3,7 +3,7 @@
 		private $mMysqli;
 		
 		function __construct(){
-			$this->mMysqli = new mysqli('localhost', 'cl54-book', 'HiUn3EoN', 'cl54-book');
+			$this->mMysqli = new mysqli('localhost', '', '', '');
 		}
 		
 		function __destruct(){
